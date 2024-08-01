@@ -14,6 +14,7 @@ nav a{
    color: white;
    display: inline-block;
    text-decoration: none;
+   animation: moverIzquierda 1s ease-in;
 }
 
 header{
@@ -38,6 +39,7 @@ img{
    display: block;
    height: 450px;
    object-fit: cover; /* Mantiene la relación de aspecto al redimensionar */
+   animation: moverArriba 1s ease-in;
 }
 
 .textos{
@@ -47,10 +49,12 @@ img{
 
 .textos h1{
    font-size: 80px;
+   animation: moverDerecha 1s ease-in;
 }
 
 .textos h2{
    font-size: 30px;
+   animation: moverIzquierda 1s ease-in;
 }
 
 .textos a{
@@ -64,6 +68,7 @@ img{
    border-radius: 3px;
    text-align: center;
    padding: 10px 0;
+   animation: moverArriba 1s ease-in;
 }
 
 .wave{
@@ -74,4 +79,43 @@ img{
    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+/* Animaciones */
+
+@keyframes moverIzquierda{
+   0%{
+      opacity: 0;
+      transform: translateX(-100px);
+   }
+
+   100%{
+      opacity: 1;
+      transform: translate(0);
+   }
+}
+
+
+@keyframes moverDerecha{
+   0%{
+      opacity: 0;
+      transform: translateX(100px);
+   }
+
+   100%{
+      opacity: 1;
+      transform: translate(0);
+   }
+}
+
+@keyframes moverArriba{
+   0%{
+      opacity: 0;
+      transform: translateY(100px);
+   }
+
+   100%{
+      opacity: 1;
+      transform: translate(0);
+   }
 }
