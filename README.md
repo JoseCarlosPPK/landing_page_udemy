@@ -8,3 +8,4 @@
 * Google Fonts: https://fonts.google.com/selection/embed
 * Freepick: https://www.freepik.es
    Tiene imágenes gratis. Hay que hacer referencia al autor (se indica al descargar la imagen)
+* UiGradients: https://uigradients.com
