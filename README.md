@@ -10,3 +10,4 @@
    Tiene imágenes gratis. Hay que hacer referencia al autor (se indica al descargar la imagen)
 * UiGradients: https://uigradients.com
 * SVG Wave Generator: https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
+* Clippy de Bennett Feely: https://bennettfeely.com/clippy/
