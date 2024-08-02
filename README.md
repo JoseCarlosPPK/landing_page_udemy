@@ -11,3 +11,6 @@
 * UiGradients: https://uigradients.com
 * SVG Wave Generator: https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
 * Clippy de Bennett Feely: https://bennettfeely.com/clippy/
+
+## Resultado final
+https://github.com/user-attachments/assets/bfd5662a-1026-465d-a0cd-530bb5b62abf
